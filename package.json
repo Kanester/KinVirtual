@@ -1,41 +1,43 @@
 {
-	"name": "kinvirtual",
-	"version": "0.0.1",
-	"main": "./dist/kinvirtual.umd.js",
-	"module": "./dist/kinvirtual.es.js",
-	"types": "./dist/index.d.ts",
-	"files": ["dist"],
-	"exports": {
-		".": {
-			"import": "./dist/kinvirtual.es.js",
-			"require": "./dist/kinvirtual.umd.js"
-		}
-	},
-	"scripts": {
-		"dev": "vite",
-		"build": "tsc -p tsconfig.build.json && vite build",
-		"preview": "vite preview"
-	},
-	"dependencies": {
-		"lit": "^3.3.0"
-	},
-	"devDependencies": {
-		"vite": "^7.0.0",
-		"typescript": "~5.8.3"
-	},
-	"license": "MIT",
-	"author": {
-		"name": "KnxTr",
-		"email": "kiovmryphll@gmail.com",
-		"url": "https://kiovcom.vercel.app/"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Kanester/KinVirtual"
-	},
-	"homepage": "https://github.com/Kanester/KinVirtual",
-	"bugs": {
-		"url": "https://github.com/Kanester/KinVirtual/issues",
-		"email": "kiovmryphll@gmail.com"
-	}
+  "name": "kinvirtual",
+  "version": "0.0.1",
+  "main": "./dist/kinvirtual.umd.js",
+  "module": "./dist/kinvirtual.es.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/kinvirtual.es.js",
+      "require": "./dist/kinvirtual.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.build.json && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^3.3.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0",
+    "typescript": "~5.8.3"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "KnxTr",
+    "email": "kiovmryphll@gmail.com",
+    "url": "https://kiovcom.vercel.app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kanester/KinVirtual"
+  },
+  "homepage": "https://github.com/Kanester/KinVirtual",
+  "bugs": {
+    "url": "https://github.com/Kanester/KinVirtual/issues",
+    "email": "kiovmryphll@gmail.com"
+  }
 }
