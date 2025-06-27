@@ -26,16 +26,16 @@
 	"license": "MIT",
 	"author": {
 		"name": "KnxTr",
-		"email": "",
-		"url": ""
+		"email": "kiovmryphll@gmail.com",
+		"url": "https://kiovcom.vercel.app/"
 	},
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/Kanester/KinVirtual"
 	},
-	"homepage": "",
+	"homepage": "https://github.com/Kanester/KinVirtual",
 	"bugs": {
-		"url": "",
-		"email": ""
+		"url": "https://github.com/Kanester/KinVirtual/issues",
+		"email": "kiovmryphll@gmail.com"
 	}
 }
